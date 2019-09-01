@@ -1,0 +1,32 @@
+@import "page.scss";
+
+#about{
+    .left{
+        flex: 1;
+        padding: 1%;
+    }
+    .right{
+        flex: 1.2;
+        padding: 1%;
+    }
+}
+
+#about{
+    .experience{
+        margin-top: 2%;
+        list-style-type: none;
+        font-size: 12pt;
+        padding-inline-start: 15px;
+        li{
+            margin-bottom: 3%;
+        }
+    }
+    .skills{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        div{
+            margin-right: 5%;
+        }
+    }
+}

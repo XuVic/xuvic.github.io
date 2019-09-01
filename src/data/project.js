@@ -34,7 +34,7 @@ export const projects_description = {
   },
   TalkUp:{
     name: 'TalkUp',
-    intro: '',
+    intro: 'TalkUp is an online discussion tool, it help user to discuss specific topic on internet. The discussion can be anonymous and time-limited. All discussion data is encrypted in database.',
     links:[
       {
         link: 'https://talkup3.herokuapp.com',
@@ -53,11 +53,11 @@ export const projects_description = {
       }
     ],
     images: ['https://imgur.com/mCCTCaW.png', 'https://imgur.com/xJLLFF3.png', 'https://imgur.com/BjyEUnO.png'],
-    techs: ['Token', 'Session', 'Encrypted Database', 'Policy Object(Authorization)', 'Mailer', 'SSO', 'TDD']
+    techs: ['Token', 'Session', 'Encrypted Database', 'Policy Object(Authorization)', 'Mailer', 'Signal Sign On', 'TDD']
   },
   CodePraise:{
     name: 'CodePraise',
-    intro: '',
+    intro: 'CodePraise is ruby project analysis tool. It can reveal information about code quality, such as test coverage and complexity. It also measures individual contribution to the project.',
     links:[
       {
         link: 'https://code-praise.herokuapp.com/',
@@ -80,7 +80,7 @@ export const projects_description = {
   },
   IssPay:{
     name: 'IssPay',
-    intro: '',
+    intro: 'IssPay is a chatbot for students in the Institute of Service Science. The students can use this chatbot to buy some snacks or drinks. This chatbot also allows admin to broadcast message to all students.',
     links:[
       {
         link: 'https://github.com/XuVic/isspay_api',
@@ -89,6 +89,6 @@ export const projects_description = {
       }
     ],
     images: ['https://imgur.com/Osy6fF1.png', 'https://imgur.com/LNrKLay.png', 'https://imgur.com/ReGo45D.png'],
-    techs: ['Devise', 'CanCanCan', 'Token-based Authentication', 'ActionMailer', 'ActiveJob', 'TDD(Rspec, FactoryBot)']
+    techs: ['Devise', 'CanCanCan', 'Token-based Authentication', 'ActionMailer', 'ActiveJob', 'TDD(Rspec, FactoryBot)', 'AASM(State Machine)']
   }
 }

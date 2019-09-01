@@ -63,6 +63,7 @@ $theme-3: #4D4D4E;
             img{
                 height: 60px;
                 width: 60px;
+                margin-top: -1pt;
             }
             span{
                 margin-top: 2.5vh;
@@ -91,6 +92,7 @@ $theme-3: #4D4D4E;
             img{
                 height: 30px;
                 width: 30px;
+                margin-top: 12pt;
             }
             span{
                 display: none;
@@ -101,7 +103,7 @@ $theme-3: #4D4D4E;
             flex-direction: row;
             padding-top: 0px;
             padding-left: 10vw;
-            padding-top: 1%;
+            padding-top: 10pt;
         }
     }
 }

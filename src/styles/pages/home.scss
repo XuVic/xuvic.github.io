@@ -37,4 +37,59 @@
             margin-right: 5%;
         }
     }
+    .cv > img{
+        margin-left: 5%;
+        margin-top: 5%;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 801px){
+    #home{
+        .right{
+            flex-direction: row;
+            .up{
+                padding-top: 2%;
+            }
+            .bottom{
+                align-items: center;
+            }
+        }
+    }
+    #home{
+        .self-intro{
+            margin-top: 0%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    #home{
+        .right{
+            .up{
+                padding-top: 2%;
+            }
+        }
+    }
+    #home{
+        .self-intro{
+            font-size: 22pt;
+            margin-top: 0%;
+        }
+        .skills{
+            font-size: 12pt;
+        }
+        .cv > img{
+            width: 80vw;
+        }
+        .link_btn{
+            .btn-secondary{
+                font-size: 8pt;
+            }
+            span{
+                font-size: 8pt;
+            }
+        }
+    }
 }

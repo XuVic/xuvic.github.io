@@ -8,3 +8,9 @@
     border-style: solid;
     border-color: white;
 }
+
+@media screen and (max-width: 1300px){
+    .app{
+        flex-direction: column;
+    }
+}

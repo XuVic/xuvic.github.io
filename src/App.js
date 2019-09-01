@@ -15,7 +15,7 @@ class App extends React.Component{
     return (
       <PageProvider>
         <div className='app'>
-          <Favicon url={Avator} />
+          <Favicon url={'./public/' + Avator} />
           <Nav />
           <PageContainer />
         </div>

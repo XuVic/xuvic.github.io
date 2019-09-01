@@ -7,7 +7,8 @@ $theme-3: #4D4D4E;
     display: flex;
     flex-direction: column;
     width: 7vw;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: fit-content;
 
     .nav-item{
         color: $theme-3;
@@ -31,8 +32,8 @@ $theme-3: #4D4D4E;
         flex-direction: column;
 
         img{
-            height: 50%;
-            width: 50%;
+            height: 70px;
+            width: 70px;
             margin:auto;
             display: block;
         }
@@ -47,6 +48,61 @@ $theme-3: #4D4D4E;
 
     .items{
         padding-top: 35vh;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .nav{
+        width: 100vw;
+        min-height: 7vh;
+        flex-direction: row;
+        .logo{
+            flex-direction: row;
+            height: 50pt;
+            width: 100pt;
+            img{
+                height: 60px;
+                width: 60px;
+            }
+            span{
+                margin-top: 2.5vh;
+                margin-right: 10%;
+            }
+        }
+        .items{
+            display: flex;
+            flex-direction: row;
+            padding-top: 0px;
+            padding-left: 20vw;
+            padding-top: 1%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nav{
+        width: 100vw;
+        min-height: 7vh;
+        flex-direction: row;
+        .logo{
+            flex-direction: row;
+            height: 50pt;
+            width: 30pt;
+            img{
+                height: 30px;
+                width: 30px;
+            }
+            span{
+                display: none;
+            }
+        }
+        .items{
+            display: flex;
+            flex-direction: row;
+            padding-top: 0px;
+            padding-left: 10vw;
+            padding-top: 1%;
+        }
     }
 }
 

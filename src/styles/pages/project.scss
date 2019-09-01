@@ -41,3 +41,15 @@
         }
     }
 }
+
+@media screen and (max-width: 800px){
+    #project{
+        .project-list{
+            .project{
+                .name{
+                    font-size: 10pt;
+                }
+            }
+        }
+    }
+}

@@ -15,8 +15,8 @@ class Project extends React.Component{
 
   projectSelector(e) {
     console.log(e.target.id)
-    if (e.target.id){
-      this.setState({project: e.target.id})
+    if (e.target.dataset.project){
+      this.setState({project: e.target.dataset.project})
     }
   }
 
@@ -30,9 +30,9 @@ class Project extends React.Component{
 
   project_element(project) {
     return (
-      <div className='project' id={project} onMouseEnter={this.projectSelector}  >
+      <div className='project' data-project={project} onClick={this.projectSelector} >
         <div className='icon'> <FontAwesomeIcon icon={faCode} size='lg' /> </div>
-        <div className='name'>  {project} </div>
+        <div className='name' data-project={project} onClick={this.projectSelector}>  {project} </div>
       </div>
     )
   }

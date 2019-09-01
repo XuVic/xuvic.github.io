@@ -30,3 +30,37 @@
         }
     }
 }
+
+@media screen and (max-width: 1300px) and (min-width: 801px){
+    #about{
+        .skills{
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    #about{
+        .left{
+            flex: 1;
+            padding: 1%;
+        }
+        .right{
+            flex: 2.5;
+            padding: 1%;
+        }
+    }
+    
+    #about{
+        .experience{
+            font-size: 8pt;
+        }
+        .skills{
+            flex-direction: row;
+            margin-left: 5%;
+            div{
+                margin-right: 2%;
+            }
+        }
+    }
+}

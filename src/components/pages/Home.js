@@ -24,7 +24,7 @@ class Home extends React.Component{
               Software Developer.
             </p>
             <p className='skills'>
-              Back end Developer / Ruby on Rails / React
+              Back end Developer / Ruby on Rails
             </p>
           </section>
           <section className='bottom links'>

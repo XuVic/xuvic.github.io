@@ -8,7 +8,7 @@ class Nav extends React.Component{
   render() {
     return (
       <nav>
-        <ul className='nav flex-column'>
+        <ul className='nav'>
           <div className='logo'>
             <NavItem name='Logo' />
           </div>
